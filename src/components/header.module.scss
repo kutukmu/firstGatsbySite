@@ -1,0 +1,62 @@
+.header{
+    padding:1rem 0 3rem 0;
+   
+    background:rgb(19, 172, 126);
+    h1{
+        text-align:center;
+    }
+}
+
+
+.link{
+    color:pink;
+}
+
+
+.title{
+
+    color:white;
+    text-decoration: none;
+    
+}
+
+.navbar{
+    
+    width:80%;
+    margin:0 auto;
+
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content:space-evenly;
+        margin:0;
+        padding:0;
+        
+    }
+
+    li{
+      
+        margin:0;
+        }
+
+}
+
+.nav-item{
+    text-decoration: none;
+    background: rgba(136, 135, 135, 0.493);
+    display: block;
+    padding: 0.5rem 2rem;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    color:black;
+}
+
+.nav-item:hover{
+    background:black;
+    color:white;
+}
+
+.active{
+    background:black;
+    color:white;
+}
